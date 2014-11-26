@@ -2,16 +2,19 @@
 
 /**
  * @ngdoc function
- * @name smartercarApp.controller:AboutCtrl
+ * @name smartercarApp.controller:PowerCtrl
  * @description
- * # AboutCtrl
+ * # PowerCtrl
  * Controller of the smartercarApp
  */
 angular.module('smartercarApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('PowerCtrl', function ($scope, $controller) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+    $controller('GaugeCtrl', {$scope:$scope});
+
+
   });

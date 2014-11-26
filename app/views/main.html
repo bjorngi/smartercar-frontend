@@ -1,23 +1,30 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+<div class="container-fixed">
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+  <div ng-controller="MapCtrl" class="col-xs-10 nopadding">
+    <leaflet defaults="defaults" center="center" height="350px" width="666px"></leaflet>
+  </div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+
+  <div ng-controller="MediaCtrl" class="col-xs-10 media">
+    <audio media-player="mediaPlayer" data-playlist="playlist1">
+      <source src="http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg" type="audio/ogg">
+    </audio>
+    <span ng-click="mediaPlayer.prev()"><i class="fa fa-backward"></i></span>
+    <span ng-click="play()" ng-show="mediaPlayer.playing"><i class="fa fa-pause"></i></span>
+    <span ng-click="play()" ng-show="!mediaPlayer.playing"><i class="fa fa-play"></i></span>
+    <span ng-click="mediaPlayer.next()"><i class="fa fa-forward"></i></span>
+
+  </div>
+
+
+  <div class="col-xs-2 nopadding">
+    <div gauges class="row-xs-1" ng-controller="SpeedCtrl"></div>
+    <div gauges class="gaugeup" ng-controller="PowerCtrl"></div>
+    <div gauges class="gaugeup" ng-controller="PowerCtrl"></div>
+    <div gauges class="gaugeup" ng-controller="PowerCtrl"></div>
+    <div gauges class="gaugeup" ng-controller="PowerCtrl"></div>
+  </div>
+
+
 </div>

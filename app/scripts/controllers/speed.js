@@ -23,5 +23,11 @@ angular.module('smartercarApp')
     $scope.max = 130;
     $scope.value = 75;
 
+      setInterval(function () {
+        $scope.$apply(function () {
+          $scope.value = Math.floor((Math.random() * 100) + 1);
+        })
+      }, 10000)
+
 
   });

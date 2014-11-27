@@ -16,7 +16,9 @@ angular
     'ngTouch',
     'frapontillo.gage',
     'mediaPlayer',
-    'leaflet-directive'
+    'leaflet-directive',
+    'shoppinpal.mobile-menu',
+    'angularMoment'
   ])
   .config(function ($routeProvider) {
     $routeProvider

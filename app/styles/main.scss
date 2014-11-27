@@ -8,8 +8,31 @@ $icon-font-path: "../../bower_components/font-awesome/fonts";
   margin: 0 !important;
 }
 
+#sp-nav {
+  width: 20%;
+  overflow: hidden;
+}
+#sp-nav.show + #sp-page {
+  -webkit-transform: translateX(20%);
+  transform: translateX(20%);
+}
+
 .gaugeup {
-  margin-top: -60px !important;
+  margin-top: -400px !important;
+}
+
+.menu {
+  background-color: #222222;
+  color:gainsboro;
+  padding: 10px;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  border-color: #0078A8;
+  font-size: 15pt;
+}
+
+.satelites {
+  float:right;
 }
 
 .container-fixed {
@@ -22,13 +45,18 @@ $icon-font-path: "../../bower_components/font-awesome/fonts";
 
 .media {
   font-size: 50px;
-  position: absolute; bottom: 10px; left: 25px;
+  position: absolute; bottom: 25px; left: 25px;
 
+}
+.noplaying {
+  position: absolute; bottom: 4px; left: 25px;
+  font-size: 14pt;
+  color: gainsboro;
 }
 
 .container-fixed .col {
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .row-xs-12 { height: 100%; }
@@ -48,7 +76,8 @@ $icon-font-path: "../../bower_components/font-awesome/fonts";
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color:dimgray;
+  background-color:#222222;
+  overflow: hidden;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

@@ -7984,7 +7984,13 @@ button.close {
   margin-top: -400px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000323}}
+.time {
+  margin-left: 38%;
+  font-size: 20pt;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000328}}
 .menu {
   background-color: #222222;
   color: gainsboro;
@@ -7995,12 +8001,12 @@ button.close {
   font-size: 15pt;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000338}}
 .satelites {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000342}}
 .container-fixed {
   bottom: 0;
   position: fixed;
@@ -8009,7 +8015,7 @@ button.close {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000350}}
 .media {
   font-size: 50px;
   position: absolute;
@@ -8017,7 +8023,7 @@ button.close {
   left: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000355}}
 .noplaying {
   position: absolute;
   bottom: 4px;
@@ -8026,74 +8032,74 @@ button.close {
   color: gainsboro;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000361}}
 .container-fixed .col {
   height: 100%;
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000366}}
 .row-xs-12 {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000367}}
 .row-xs-11 {
   height: 91.66666666666666%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000368}}
 .row-xs-10 {
   height: 83.33333333333334%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000369}}
 .row-xs-9 {
   height: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000370}}
 .row-xs-8 {
   height: 66.66666666666666%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000371}}
 .row-xs-7 {
   height: 58.333333333333336%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000372}}
 .row-xs-6 {
   height: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000373}}
 .row-xs-5 {
   height: 41.66666666666667%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000374}}
 .row-xs-4 {
   height: 33.33333333333333%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000375}}
 .row-xs-3 {
   height: 25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000376}}
 .row-xs-2 {
   height: 16.666666666666664%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000377}}
 .row-xs-1 {
   height: 8.333333333333332%;
 }
 
 /* Space out content a bit */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000380}}
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -8102,7 +8108,7 @@ body {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000388}}
 .header,
 .marketing,
 .footer {
@@ -8111,12 +8117,12 @@ body {
 }
 
 /* Custom page header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000396}}
 .header {
   border-bottom: 1px solid #e5e5e5;
   /* Make the masthead heading the same height as the navigation */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003100}}
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -8125,49 +8131,49 @@ body {
 }
 
 /* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003109}}
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003115}}
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003120}}
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003124}}
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003131}}
 .marketing {
   margin: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003134}}
 .marketing p + h4 {
   margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003141}}
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003146}}
   .header,
   .marketing,
   .footer {
@@ -8176,13 +8182,13 @@ body {
   }
 
   /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003153}}
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bjorn\/workon\/smartercar\/smartercar-frontend\/app\/styles\/main\.scss}line{font-family:\00003157}}
   .jumbotron {
     border-bottom: 0;
   }

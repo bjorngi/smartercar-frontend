@@ -18,7 +18,8 @@ angular
     'mediaPlayer',
     'leaflet-directive',
     'shoppinpal.mobile-menu',
-    'angularMoment'
+    'angularMoment',
+    'wb.angularClock'
   ])
   .config(function ($routeProvider) {
     $routeProvider

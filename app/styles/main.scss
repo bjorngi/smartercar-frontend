@@ -9,12 +9,56 @@ $icon-font-path: "../../bower_components/font-awesome/fonts";
 }
 
 #sp-nav {
-  width: 20%;
-  overflow: hidden;
+  width: 50%;
+  overflow: scroll;
 }
 #sp-nav.show + #sp-page {
-  -webkit-transform: translateX(20%);
-  transform: translateX(20%);
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nowplaying {
+  color: red;
+  background:gray;
+
+}
+
+
+.mediaList {
+  #artist {
+    color: white;
+    font-size: 12pt;
+  }
+  #track {
+    padding-top: -20px;
+    color: gray;
+    text-overflow: ellipsis;
+  }
+
+}
+
+.rightMediaControll {
+  color: white;
+  display: block;
+  float:right;
+  margin-right: 25px;
+  font-size: 14pt;
+  padding-top: 2px;
+
+}
+
+.leftMediaControll {
+  color: white;
+  display: block;
+  float:left;
+  margin-right: 25px;
+  padding-top: 2px;
+  font-size: 18pt;
+
 }
 
 .gaugeup {

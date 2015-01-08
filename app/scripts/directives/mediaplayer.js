@@ -7,23 +7,16 @@
  * # mediaPlayer
  */
 angular.module('smartercarApp')
-.controller('MediaCtrl', function ($scope, $http, $spMenu) {
+.controller('MediaListCtrl', function ($scope, $http, $spMenu, $rootScope) {
 
-
-  $scope.play = function () {
-    //$scope.mediaPlayer.playPause();
-    $scope.mediaPlayer.playpause();
-    console.log($scope.playlist);
-  };
-
-  $scope.tracks = null;
+  $scope.tracks = [];
   $scope.playlist = [];
 
   $scope.loadMusic = function() {
     $http.get('http://0.0.0.0:8000/music/list').
     success(function(data, status, headers, config) {
       $scope.tracks = data;
-      console.log(data);
+      $rootScope.$broadcast('PlaylistEvent', data);
     }).
       error(function(data, status, headers, config) {
     })
@@ -37,9 +30,8 @@ angular.module('smartercarApp')
 
   $scope.playTrack = function(track) {
     $spMenu.toggle();
-    $scope.mediaPlayer.playPause();
+    $rootScope.$broadcast('PlayTrack', track)
   }
-
 
 
 })
@@ -47,10 +39,5 @@ angular.module('smartercarApp')
   return {
     templateUrl: 'views/partials/media-lister.html',
   }
-//})
-//.directive('mediaPlayer', function () {
-//  return {
-//    templateUrl: 'views/partials/media-player.html',
-//  }
 });
 

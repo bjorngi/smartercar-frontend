@@ -18,11 +18,11 @@ angular.module('smartercarApp')
   function containsTrack(track, playlist) {
     var i;
     for (var i=0; i < playlist.length; ++i) {
-      if(playlist[i] === track) {
-        return true;
+      if(playlist[i].name === track.name && playlist[i].artist === track.artist) {
+        return i;
       }
-      return false;
     }
+    return -1;
   }
 
   $scope.songsAvailable = false;
@@ -37,13 +37,14 @@ angular.module('smartercarApp')
   });
 
   $scope.$on('PlayTrack', function(message, track) {
-    if(containsTrack(track, $scope.playlist)) {
+    var trackNumber = containsTrack(track, $scope.playlist);
+    if(trackNumber > 0) {
+      $scope.mediaPlayer.play(trackNumber);
 
+    } else {
+      $scope.playlist.push(track);
+      $scope.mediaPlayer.play(Object.keys($scope.playlist)+1);
     }
-
-    $scope.playlist.push(track);
-
-    $scope.mediaPlayer.play();
   });
 
 

@@ -1,0 +1,18 @@
+<div ng-controller="MediaCtrl" class="menu-container">
+<ul class="mediaList">
+  <li class="tracks" ng-repeat="track in tracks">
+    <div >
+      <div ng-click="playTrack(track)" class="leftMediaControll">
+        <i class="fa fa-play"></i>
+      </div>
+
+      <div class="rightMediaControll">
+        <i class="fa fa-sort-amount-desc"></i>
+      </div>
+
+      <span id="artist">{{track.artist}}</span><br>
+      <span id="track">{{track.name}}</span>
+    </div>
+  </li>
+</ul>
+</div>

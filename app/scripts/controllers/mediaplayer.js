@@ -15,8 +15,19 @@ angular.module('smartercarApp')
     'Karma'
   ];
 
+  function containsTrack(track, playlist) {
+    var i;
+    for (var i=0; i < playlist.length; ++i) {
+      if(playlist[i] === track) {
+        return true;
+      }
+      return false;
+    }
+  }
+
   $scope.songsAvailable = false;
   $scope.playlist = [];
+  $scope.currentlyPlaying = null;
 
   $scope.$on('PlaylistEvent', function(message, data) {
     $scope.playlist = data;
@@ -26,14 +37,26 @@ angular.module('smartercarApp')
   });
 
   $scope.$on('PlayTrack', function(message, track) {
-    $scope.track = track;
-    $scope.mediaPlayer.load(track)
-    $scope.mediaPlayer.play()
+    if(containsTrack(track, $scope.playlist)) {
+
+    }
+
+    $scope.playlist.push(track);
+
+    $scope.mediaPlayer.play();
   });
+
+
 
   $scope.play = function () {
     $scope.mediaPlayer.playPause();
   }
+
+  $scope.$watch('mediaPlayer.currentTrack', function(newTrack) {
+    $scope.currentlyPlaying = $scope.playlist[newTrack-1]
+
+  });
+
 
 });
 
